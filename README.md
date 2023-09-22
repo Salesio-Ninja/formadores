@@ -1,31 +1,57 @@
-# formadores
-Projetos dos Formadores
-# Barbearia Exemplo
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Exemplo</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Adicione um arquivo CSS para estilização aqui -->
+</head>
+<body>
+    <header>
+        <h1>Barbearia Exemplo</h1>
+        <nav>
+            <ul>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#horario">Horário de Funcionamento</a></li>
+                <li><a href="#localizacao">Localização</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-Bem-vindo à Barbearia Exemplo, o lugar perfeito para cuidar da sua aparência masculina.
+    <section id="servicos">
+        <h2>Serviços Oferecidos</h2>
+        <ul>
+            <li>Corte de cabelo</li>
+            <li>Barba</li>
+            <li>Depilação facial</li>
+            <li>Tratamento capilar</li>
+        </ul>
+    </section>
 
-![Imagem da Barbearia](imagem.jpg)
+    <section id="horario">
+        <h2>Horário de Funcionamento</h2>
+        <p>Segunda a Sexta: 9h00 - 19h00</p>
+        <p>Sábado: 10h00 - 16h00</p>
+        <p>Domingo: Fechado</p>
+    </section>
 
-## Serviços Oferecidos
+    <section id="localizacao">
+        <h2>Localização</h2>
+        <p>Endereço: Rua Exemplo, 123</p>
+        <p>Cidade: Sua Cidade</p>
+        <p>CEP: 12345-678</p>
+    </section>
 
-- Corte de cabelo
-- Barba
-- Depilação facial
-- Tratamento capilar
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Telefone: (123) 456-7890</p>
+        <p>Email: <a href="mailto:contato@barbeariaexemplo.com">contato@barbeariaexemplo.com</a></p>
+    </section>
 
-## Horário de Funcionamento
+    <footer>
+        <p>&copy; 2023 Barbearia Exemplo</p>
+    </footer>
+</body>
+</html>
 
-- Segunda a Sexta: 9h00 - 19h00
-- Sábado: 10h00 - 16h00
-- Domingo: Fechado
-
-## Localização
-
-Endereço: Rua Exemplo, 123
-Cidade: Sua Cidade
-CEP: 12345-678
-
-## Contato
-
-- Telefone: (123) 456-7890
-- Email: contato@barbeariaexemplo.com
