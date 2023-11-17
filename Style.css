@@ -1,3 +1,21 @@
 .frase-especial {
     color: rgb(0, 255, 102); /* Altere "blue" para a cor desejada */
 }
+#imagens {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem-container {
+    width: 30%;
+    margin-right: 2%; /* Espaçamento entre as imagens */
+}
+
+.imagem-container:last-child {
+    margin-right: 0; /* Remove o espaçamento da última imagem */
+}
+
+.imagem-container img {
+    width: 100%;
+    height: auto;
+}
