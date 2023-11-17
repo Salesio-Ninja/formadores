@@ -1,3 +1,13 @@
 .frase-especial {
     color: rgb(0, 255, 102); /* Altere "blue" para a cor desejada */
 }
+#imagens.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Três colunas de largura igual */
+    grid-gap: 20px; /* Espaçamento entre as colunas */
+}
+
+.imagem-container img {
+    width: 100%;
+    height: auto;
+}
